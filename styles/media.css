@@ -17,6 +17,14 @@
   }
 
 }
+@media (max-width: 600px) {
+  .wrapper__list-image {
+     max-width: 150px;
+  }
+  .wrapper__list {
+       flex-direction: column;
+  }
+}
 
 @media print {
   .print {
